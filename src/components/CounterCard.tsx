@@ -1,6 +1,6 @@
 const CounterCard = ({ text, count }: { text: string; count: string }) => {
   return (
-    <div className="h-[160px] flex-1 min-w-[250px] max-w-[250px] bg-white shadow rounded-[16px] flex flex-col  items-center justify-center ">
+    <div className="h-[160px] flex-1 max-xl:min-w-[200px] min-w-[250px]  bg-white shadow rounded-[16px] flex flex-col  items-center justify-center ">
       <h1 className="text-[36px] leading-[60px] 2xl:text-[48px] 2xl:leading-[72px] font-[600] text-pink text-center">
         {count}
       </h1>

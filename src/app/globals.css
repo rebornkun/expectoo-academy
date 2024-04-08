@@ -9,7 +9,9 @@
 
 .text-center {
   font-family: inherit !important;
+  text-align: center;
 }
 .text-centerP {
   font-family: "Poppins", sans-serif !important;
+  text-align: center;
 }

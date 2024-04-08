@@ -1,21 +1,19 @@
 import Button from "@/components/Button";
 import CertificateCard from "@/components/CertificateCard";
 import CounterCard from "@/components/CounterCard";
-import CourseGauge from "@/components/CourseGauge";
-import Image from "next/image";
 
 const ForthSection = () => {
   return (
     <section className="w-full bg-blue">
-      <div className="container h-full px-[20px] pt-[8rem] pb-[8rem] mx-auto flex flex-col gap-14">
-        <div className="w-full h-full flex gap-24 ">
-          <div className="max-w-[50%] flex-[1_1_50%] flex gap-8 flex-col">
-            <div className="flex gap-4 flex-col">
+      <div className="container h-full px-[20px] max-md:pt-[4rem] pt-[8rem] max-md:pb-[4rem] pb-[8rem] mx-auto flex flex-col gap-14">
+        <div className="w-full h-full flex gap-20 2xl:gap-24 items-center max-md:flex-col max-md:text-center">
+          <div className="max-md:max-w-[80%] max-w-[50%] flex-[1_1_50%] flex gap-8 flex-col max-md:items-center">
+            <div className="flex gap-4 flex-col ">
               <h5 className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400] text-pink">
                 ABOUT EXPECTOO ACADEMY
               </h5>
-              <div className="flex flex-col gap-2">
-                <h3 className="poppins text-[25px] leading-[30px] 2xl:text-[38px] 2xl:leading-[57px] font-[800] text-white 2xl:w-[70%] ">
+              <div className="flex flex-col gap-2 max-md:items-center">
+                <h3 className="poppins text-[25px] leading-[30px] 2xl:text-[38px] 2xl:leading-[57px] font-[800] text-white w-[70%] ">
                   Our Large Benefit You Enroll For Our Courses
                 </h3>
                 <div className="stick h-[4px] w-[80px] bg-white "></div>
@@ -34,7 +32,7 @@ const ForthSection = () => {
             </p>
             <Button type="nom" text="REGISTER NOW" link="" />
           </div>
-          <div className="max-w-[50%] flex-[1_1_50%] flex flex-col w-full gap-12">
+          <div className="max-md:max-w-[80%] max-w-[50%] flex-[1_1_50%] flex flex-col w-full gap-12">
             <div className="flex gap-4 flex-col">
               <h5 className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400] text-pink text-center">
                 OUR VISION

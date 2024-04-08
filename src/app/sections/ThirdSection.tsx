@@ -6,9 +6,9 @@ import Image from "next/image";
 const ThirdSection = () => {
   return (
     <section className="w-full bg-white">
-      <div className="container h-full px-[20px] pt-[8rem] pb-[4rem] mx-auto flex flex-col gap-14">
-        <div className="w-full h-full flex gap- justify-evenly ">
-          <div className="max-w-[40%] flex-[1_1_40%] flex gap-8 flex-col">
+      <div className="container h-full px-[20px] max-md:pt-[4rem] pt-[8rem] max-md:pb-[2rem] pb-[4rem] mx-auto flex flex-col gap-14">
+        <div className="w-full h-full flex max-lg:flex-col justify-evenly max-lg:gap-[12rem] ">
+          <div className="w-full lg:max-w-[40%] flex-[1_1_40%] flex gap-8 flex-col">
             <p className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400]">
               Lorem ipsum dolor sit amet consectetur. Quis mauris nunc molestie
               malesuada. Nunc nisi aliquet viverra eu ut nibh sed volutpat
@@ -34,12 +34,12 @@ const ThirdSection = () => {
               </div>
             </div>
           </div>
-          <div className="max-w-[40%] flex-[1_1_40%] flex flex-col w-full gap-8">
-            <h5 className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400] text-pink">
+          <div className="w-full lg:max-w-[40%] flex-[1_1_40%] flex flex-col w-full gap-8">
+            <h5 className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400] text-pink mb-[-1.5rem]">
               ABOUT EXPECTOO ACADEMY
             </h5>
             <div className="flex flex-col gap-2">
-              <h3 className="poppins text-[25px] leading-[30px] 2xl:text-[38px] 2xl:leading-[45px] font-[800] text-blue 2xl:w-[80%] ">
+              <h3 className="poppins text-[25px] leading-[30px] 2xl:text-[38px] 2xl:leading-[45px] font-[800] text-blue w-[80%] ">
                 Our Large Benefit You Enroll For Our Courses
               </h3>
               <div className="stick h-[4px] w-[80px] bg-blue "></div>

@@ -5,24 +5,24 @@ const FirstSection = () => {
   return (
     <section className="h-screen w-full bg-blue">
       <div className="container h-full px-[20px] mx-auto flex ">
-        <div className="flex-[1_1_50%] w-[50%] flex flex-col justify-center gap-2 pt-[10rem] ">
-          <h1 className="poppins text-[36px] leading-[60px] 2xl:text-[48px] 2xl:leading-[72px] font-[800] text-white 2xl:w-[534px]">
+        <div className="flex-[1_1_50%] w-[50%] flex flex-col justify-center gap-2 pt-[10rem] z-[2] relative">
+          <h1 className="poppins text-[36px] leading-[50px] 2xl:text-[48px] 2xl:leading-[72px] font-[800] text-white md:w-[500px] 2xl:w-[534px]">
             Improve Your IT Skills Learning Experience{" "}
             <span className="text-darkPink">Better</span> Instantly
           </h1>
-          <p className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400] text-white 2xl:w-[500px]">
+          <p className="text-[14px] leading-[16px] 2xl:text-[16px] 2xl:leading-[19px] font-[400] text-white md:w-[500px] 2xl:w-[500px]">
             Lorem ipsum dolor sit amet consectetur. Quis mauris nunc molestie
             malesuada. Nunc nisi aliquet viverra eu ut nibh sed volutpat
             rhoncus. Lorem ipsum dolor sit amet consectetur. Quis mauris nunc
             molestie malesuada. Nunc nisi aliquet viverra eu ut nibh sed
             volutpat{" "}
           </p>
-          <div className="flex gap-[2rem] items-center mt-[2.5rem]">
+          <div className="flex gap-[1rem] lg:gap-[1.5rem] 2xl:gap-[2rem] items-center mt-[1.5rem] 2xl:mt-[2.5rem]">
             <Button type="nom" text="GET STARTED" link="" />
             <Button type="outline" text="BROWSE COURSE" link="" />
           </div>
         </div>
-        <div className="flex-[1_1_50%] w-[50%] flex flex-col justify-end ">
+        <div className="flex-[1_1_50%] w-[50%] flex flex-col justify-end max-md:hidden z-[1] relative ">
           <Image
             alt="hero"
             src={"/images/academy_woman.png"}
@@ -30,7 +30,7 @@ const FirstSection = () => {
             height={10000}
             quality={100}
             priority={true}
-            className="w-[70%]"
+            className="w-[400px]  2xl:w-[70%]"
           />
         </div>
       </div>
